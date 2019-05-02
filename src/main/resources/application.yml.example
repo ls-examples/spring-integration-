@@ -1,0 +1,22 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: stock
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "###########"
+    password: "###########"
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.starttls.enable: true
+server.port: 8092
+server.error.whitelabel.enabled: false
+telegram:
+  botName: "@#######t"
+  token: "#####################"
+  chatId: "#########"
+emailnotification:
+  emails:
+    - mail@example.com
